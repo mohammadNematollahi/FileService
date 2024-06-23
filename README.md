@@ -2,16 +2,13 @@
 
 Upload the file to the Public folder 👇
 
-php```
-
+```
 FileBuilder::setFile(file)->setExclusiveDirectory(filePath)->upload();
-
 ```
 
 Upload the file to the Storage folder 👇
 
-php```
-
+```
 FileBuilder::setFile(file)->setExclusiveDirectory(filePath)->upload(true);
 ```
 
