@@ -2,7 +2,7 @@
 
 Upload the file to the Public folder 👇
 
-```
+```php
 FileBuilder::setFile(file)->setExclusiveDirectory(filePath)->upload();
 ```
 
